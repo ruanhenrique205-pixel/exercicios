@@ -29,4 +29,18 @@ public class mainLivro {
 		System.out.println("livro com mais pagina e : " + resultado);
 	}
 
+	
+	
+	
+	$ git rm --cached LIVROS
+	error: the following file has staged content different from both the
+	file and the HEAD:
+	    LIVROS
+	(use -f to force removal)
+
+	Ruanh@DESKTOP-GH0T5MS MINGW64 /c/Eclipse/alees/src (master)
+	$ git -C LIVROS log --oneline
+	8bbe300 (HEAD -> master) projeto biblioteca
+
+
 }
